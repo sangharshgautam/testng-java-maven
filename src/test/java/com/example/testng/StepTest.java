@@ -2,6 +2,7 @@ package com.example.testng;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class StepTest {
@@ -20,6 +21,10 @@ public class StepTest {
             step.parameter("parameter", localParameter);
             Allure.step(String.format("Nested lambda step with global parameter [%s]", GLOBAL_PARAMETER));
         });
+    }
+    @Test
+    public void testSample(){
+        Assert.assertEquals(1+1, 2);
     }
 
     @Step("Parent annotated step with parameter [{parameter}]")
