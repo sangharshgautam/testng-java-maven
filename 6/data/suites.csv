@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","27","annotatedStepTest","Surefire suite","Thu Oct 16 20:46:26 GMT 2025","passed","Thu Oct 16 20:46:26 GMT 2025","com.example.testng.StepTest","Surefire test","com.example.testng.StepTest","annotatedStepTest"
+"","4","testSample","Surefire suite","Thu Oct 16 20:46:26 GMT 2025","passed","Thu Oct 16 20:46:26 GMT 2025","com.example.testng.StepTest","Surefire test","com.example.testng.StepTest","testSample"
+"","3","lambdaStepTest","Surefire suite","Thu Oct 16 20:46:26 GMT 2025","passed","Thu Oct 16 20:46:26 GMT 2025","com.example.testng.StepTest","Surefire test","com.example.testng.StepTest","lambdaStepTest"
