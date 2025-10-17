@@ -22,7 +22,7 @@ jobs:
           distribution: 'zulu'
 
       - name: Run Test
-        run: ./mvnw verify
+        run: ./mvnw verify --batch-mode --no-transfer-progress
         continue-on-error: true
 
       - name: Setup Allure History
