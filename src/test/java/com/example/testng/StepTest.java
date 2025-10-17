@@ -27,6 +27,11 @@ public class StepTest {
         Assert.assertEquals(1+1, 2);
     }
 
+    @Test
+    public void testSample2(){
+        Assert.assertEquals(1+2, 3);
+    }
+
     @Step("Parent annotated step with parameter [{parameter}]")
     public void annotatedStep(final String parameter) {
         nestedAnnotatedStep();
